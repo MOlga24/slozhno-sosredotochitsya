@@ -2,13 +2,26 @@
 @media (prefers-color-scheme: light) {
   :root {
     --bg-image: url(..//images/cover-image-light.png);
+
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
   }
   .page {
     min-inline-size: 375px;
     margin: 0;
     font-family: var(--main-font, sans-serif);
     --bg-color: #353430;
+
     --bg-image: url(..//images/cover-image-light.png);
+    
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
     --accent-color: #353430;
     --accent-color-shadow: #ff0070;
     --text-color: #ff8dcb;
@@ -16,19 +29,29 @@
     --main-text-color: #353430;
     --border-color: rgba(50, 49, 45, 0.4);
   }
+
   .header__theme-menu-button_active {
     pointer-events: none;
   }
+
   .span__rec {
     visibility: hidden;
   }
 }
+
 .page.theme_light {
   min-inline-size: 375px;
   margin: 0;
   font-family: var(--main-font, sans-serif);
   --bg-color: #353430;
+
   --bg-image: url(..//images/cover-image-light.png);
+  background-image: var(--bg-image);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+
   --accent-color: #353430;
   --accent-color-shadow: #ff0070;
   --text-color: #ff8dcb;
@@ -40,6 +63,7 @@
 .header__theme-menu-button_active {
   pointer-events: none;
 }
+
 .page.theme_light .span__rec {
   visibility: hidden;
 }
