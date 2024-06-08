@@ -8,8 +8,8 @@
   --focus-text-color: #DB00FF;
   --main-text-color:#F1B2CE;
   --border-color: rgba(255, 0, 112, 0.4);
-  
-  --bg-image: url(..//images/cover-image-dark.png); 
+  --bg-image: url(..//images/cover-image-dark.png);
+
 }
 
 .page {
@@ -18,9 +18,8 @@
   --text-color:  #FF0070;
   --focus-text-color: #DB00FF;
   --main-text-color:#F1B2CE;
+  --border-color: rgba(255, 0, 112, 0.4);   
+  --bg-image: url(..//images/cover-image-dark.png);
 
-  --border-color: rgba(255, 0, 112, 0.4); 
-  
-  --bg-image: url(..//images/cover-image-dark.png); 
 }
 
