@@ -3,25 +3,14 @@
   :root {
     --bg-image: url(..//images/cover-image-light.png);
     --bg-color: #FFF1F7;
-    /* background-image: var(--bg-image);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
+   
   }
   .page {
     min-inline-size: 375px;
     margin: 0;
     font-family: var(--main-font, sans-serif);
     --bg-color: #FFF1F7;
-
     --bg-image: url(..//images/cover-image-light.png);
-/*     
-    background-image: var(--bg-image);
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed; */
     --accent-color: #353430;
     --accent-color-shadow: #ff0070;
     --text-color: #ff8dcb;
@@ -44,14 +33,7 @@
   margin: 0;
   font-family: var(--main-font, sans-serif);
   --bg-color: #FFF1F7;
-
   --bg-image: url(..//images/cover-image-light.png);
-  /* background-image: var(--bg-image);
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  background-attachment: fixed; */
-
   --accent-color: #353430;
   --accent-color-shadow: #ff0070;
   --text-color: #ff8dcb;
