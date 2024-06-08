@@ -9,6 +9,12 @@
   --bg-image: url(..//images/cover-image-dark.png);
   --main-text-color: #f1b2ce;
   --border-color: rgba(255, 0, 112, 0.4);
+    background-image: var(--bg-image);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+
 }
 
 .header__theme-menu-button_active {
