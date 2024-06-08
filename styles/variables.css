@@ -6,9 +6,10 @@
   --accent-color-shadow: #FF0070;
   --text-color:  #FF0070;
   --focus-text-color: #DB00FF;
-  --bg-image: url(..//images/cover-image-dark.png); 
   --main-text-color:#F1B2CE;
   --border-color: rgba(255, 0, 112, 0.4);
+  
+  --bg-image: url(..//images/cover-image-dark.png); 
 
 }
 
@@ -17,9 +18,10 @@
   --accent-color-shadow: #FF0070;
   --text-color:  #FF0070;
   --focus-text-color: #DB00FF;
-  --bg-image: url(..//images/cover-image-dark.png); 
   --main-text-color:#F1B2CE;
-  --border-color: rgba(255, 0, 112, 0.4);
+  --border-color: rgba(255, 0, 112, 0.4); 
+  
+  --bg-image: url(..//images/cover-image-dark.png); 
 
 }
 
