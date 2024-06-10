@@ -3,12 +3,14 @@
   :root {
     --bg-image: url(..//images/cover-image-light.png);
     --bg-color: #FFF1F7;
+  
    
   }
   .page {
     min-inline-size: 375px;
     margin: 0;
     font-family: var(--main-font, sans-serif);
+    --title-color: #353430;
     --bg-color: #FFF1F7;
     --bg-image: url(..//images/cover-image-light.png);
     --accent-color: #353430;
@@ -19,9 +21,6 @@
     --border-color: rgba(50, 49, 45, 0.4);
   }
 
-  .header__theme-menu-button_active {
-    pointer-events: none;
-  }
 
   .span__rec {
     visibility: hidden;
@@ -31,8 +30,8 @@
 .page.theme_light {
   min-inline-size: 375px;
   margin: 0;
-  font-family: var(--main-font, sans-serif);
-  --bg-color: #FFF1F7;
+  /* font-family: var(--main-font, sans-serif); */
+  /* --bg-color: #FFF1F7; */
   --bg-image: url(..//images/cover-image-light.png);
   --accent-color: #353430;
   --accent-color-shadow: #ff0070;
@@ -40,11 +39,10 @@
   --focus-text-color: #ffc2e6;
   --main-text-color: #353430;
   --border-color: rgba(50, 49, 45, 0.4);
+
 }
 
-.header__theme-menu-button_active {
-  pointer-events: none;
-}
+
 
 .page.theme_light .span__rec {
   visibility: hidden;
