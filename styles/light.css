@@ -1,13 +1,13 @@
 @media (prefers-color-scheme: light) {
   :root {
-    --bg-image: url(..//images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
     --bg-color: #fff1f7;
     min-inline-size: 375px;
     margin: 0;
     font-family: var(--main-font, sans-serif);
     --title-color: #353430;
     --bg-color: #fff1f7;
-    --bg-image: url(..//images/cover-image-light.png);
+    --bg-image: url(../images/cover-image-light.png);
     --accent-color: #353430;
     --accent-color-shadow: #ff0070;
     --text-color: #ff8dcb;
@@ -15,21 +15,7 @@
     --main-text-color: #353430;
     --border-color: rgba(50, 49, 45, 0.4);
   }
-  /* .page {
-    min-inline-size: 375px;
-    margin: 0;
-    font-family: var(--main-font, sans-serif);
-    --title-color: #353430;
-    --bg-color: #FFF1F7;
-    --bg-image: url(..//images/cover-image-light.png);
-    --accent-color: #353430;
-    --accent-color-shadow: #ff0070;
-    --text-color: #ff8dcb;
-    --focus-text-color: #ffc2e6;
-    --main-text-color: #353430;
-    --border-color: rgba(50, 49, 45, 0.4);
-  } */
-
+  
   .span__rec {
     visibility: hidden;
   }
@@ -38,7 +24,7 @@
 .page.theme_light {
   min-inline-size: 375px;
   margin: 0;
-  --bg-image: url(..//images/cover-image-light.png);
+  --bg-image: url(../images/cover-image-light.png);
   --accent-color: #353430;
   --accent-color-shadow: #ff0070;
   --text-color: #ff8dcb;
