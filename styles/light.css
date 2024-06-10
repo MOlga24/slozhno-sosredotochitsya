@@ -3,8 +3,8 @@
     --bg-image: url(../images/cover-image-light.png);
     --bg-color: #fff1f7;
     min-inline-size: 375px;
-    margin: 0;
-    font-family: var(--main-font, sans-serif);
+    margin: 0 auto;
+    font-family: var(--main-font, monospace);
     --title-color: #353430;
     --bg-color: #fff1f7;
     --bg-image: url(../images/cover-image-light.png);
@@ -23,7 +23,7 @@
 
 .page.theme_light {
   min-inline-size: 375px;
-  margin: 0;
+  margin: 0 auto;
   --bg-image: url(../images/cover-image-light.png);
   --accent-color: #353430;
   --accent-color-shadow: #ff0070;
